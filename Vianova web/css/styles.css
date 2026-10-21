@@ -1,0 +1,109 @@
+body { /*elimina margenes*/
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cuadro-titulo { /*diseño del cuadro azul*/
+    width: 80%;
+    height: 250px;
+    background-color: #1E3A5F;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.cuadro-titulo h1 { /*formato del texto del cuadro azul*/
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.contenedor-botones { /*organizar las separaciones de los botones*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.boton { /*apariencia de los botones*/
+    background-color: #1E3A5Ffe;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cuadro-titulo { /*sirve para los espacios entre logo y el titulo*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo_imagen { /*tamaño del logo*/
+    max-width: 15%;
+    height: auto;
+}
+
+
+body { /*tipo de letra y donde la quiere tener uno*/
+    font-family: Cookie;
+    text-align: center;
+}
+
+form { /*cuadro azul y su dicesño*/
+    background-color: #1E3A5F;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgb(226, 219, 219);
+    border-radius: 10px;
+}
+
+input { /*es para el margen de los cuadros*/
+    margin: 5px;
+    padding: 5px;
+}
+label { /*formato para los textos*/
+    color: rgb(245, 240, 240);      
+    display: block;    
+    text-align: left; 
+    margin-top: 12px;   
+    margin-bottom: 4px;
+}
+
+button { /*diseño para el boton*/
+    background-color: rgb(237, 237, 242);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.cuadro-ayuda { /*ajusta el cuadro azul contenedor de ayuda*/
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.cuadro-ayuda label { /*color amarillo para el titulo de Contacto directo*/
+    font-size: 18px;
+    color: #FFD700;
+    margin-bottom: 15px;
+}
+
+.cuadro-ayuda p { /*color blanco y margenes para los textos del correo y telefono*/
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+  
